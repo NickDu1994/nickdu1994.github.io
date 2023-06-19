@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>GeoAR.js demo</title>
-    <script src="javascript/aframe.min.js"></script>
-    <script src="javascript/aframe-look-at-component.min.js"></script>
-    <script src="javascript/aframe-ar-nft.js"></script>
-  </head>
 
-  <body>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>GeoAR.js demo</title>
+    <script src='aframe.min.js'></script>
+    <script src="aframe-ar.min.js"></script>
+    <script>
+        THREEx.ArToolkitContext.baseURL = '../'
+    </script>
+
+</head>
+<link rel="stylesheet" href="index.css">
+<script src="./script.js"></script>
+<body style='margin: 0; overflow: hidden;'>
     <a-scene
-      vr-mode-ui="enabled: false"
-      arjs="sourceType: webcam; videoTexture: true; debugUIEnabled: false;"
-    >
-      <a-text
-        value="Welcome to China, Boss."
-        look-at="[gps-camera]"
-        scale="120 120 120"
-        gps-entity-place="latitude: 31.119139; longitude: 121.552971;"
-      ></a-text>
-      <a-camera gps-camera rotation-reader> </a-camera>
-    </a-scene>
-  </body>
-</html>
+    cursor='rayOrigin: mouse; fuse: true; fuseTimeout: 0;'
+    raycaster="objects: [gps-entity-place];"
+        vr-mode-ui='enabled: false'
+        embedded
+        arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
+    <a-camera gps-camera="minDistance: 40;" rotation-reader></a-camera>
+</a-scene>
+</body>
