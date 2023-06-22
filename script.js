@@ -43,7 +43,7 @@ window.onload = () => {
                 places.forEach((place) => {
                     const latitude = place.location.lat;
                     const longitude = place.location.lng;
-
+                    alert("position latitude=" + latitude + "&&&longitude=" + longitude);
                     // add place name
 
                     const icon = document.createElement('a-image');
