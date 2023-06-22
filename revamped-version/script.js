@@ -214,7 +214,35 @@ function loadPlaces(position) {
             "hasPerk": false
         }
     ];
-    return mockPlace;
+    const params = {
+        radius: 300,    // search places not farther than this value (in meters)
+        clientId: 'ILAXZHLG1YGODF5TOET4ICFT3I1CFJN5ZR1CRJQHDDS1IDI2',
+        clientSecret: 'CU54JRCCZPWDQRRLC1BNT3FJSEJGDV1LOYCOHVOEWEK53FOG',
+        version: '20300101',    // foursquare versioning, required but unuseful for this demo
+    };
+
+    // CORS Proxy to avoid CORS problems
+    const corsProxy = 'https://cors-anywhere.herokuapp.com/';
+
+    // Foursquare API (limit param: number of maximum places to fetch)
+    const endpoint = `https://api.foursquare.com/v2/venues/search?intent=checkin
+        &ll=${position.latitude},${position.longitude}
+        &radius=${params.radius}
+        &client_id=${params.clientId}
+        &client_secret=${params.clientSecret}
+        &limit=30
+        &v=${params.version}`;
+    return fetch(endpoint)
+        .then((res) => {
+            return res.json()
+                .then((resp) => {
+                    return mockPlace;
+                })
+        })
+        .catch((err) => {
+            console.error('Error with places API', err);
+            return mockPlace;
+        })
 };
 
 
@@ -223,12 +251,9 @@ window.onload = () => {
 
     // first get current user location
     return navigator.geolocation.getCurrentPosition(function (position) {
-        
+
         // than use it to load from remote APIs some places nearby
         loadPlaces(position.coords)
-            .then(() => {
-                alert("position latitude=" + position.latitude + "&&&longitude=" + position.longitude);
-            })
             .then((places) => {
                 places.forEach((place) => {
                     const latitude = place.location.lat;
