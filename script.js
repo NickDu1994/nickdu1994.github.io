@@ -36,14 +36,14 @@ window.onload = () => {
 
     // first get current user location
     return navigator.geolocation.getCurrentPosition(function (position) {
-
+        alert("position latitude=" + position.latitude + "&&&longitude=" + position.longitude);
         // than use it to load from remote APIs some places nearby
         loadPlaces(position.coords)
             .then((places) => {
                 places.forEach((place) => {
                     const latitude = place.location.lat;
                     const longitude = place.location.lng;
-                    alert("position latitude=" + latitude + "&&&longitude=" + longitude);
+                    
                     // add place name
 
                     const icon = document.createElement('a-image');
