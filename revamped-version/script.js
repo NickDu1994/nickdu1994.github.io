@@ -265,7 +265,7 @@ window.onload = () => {
                     icon.setAttribute('gps-new-entity-place', `latitude: ${latitude}; longitude: ${longitude}`);
                     icon.setAttribute('name', place.name);
                     icon.setAttribute('src', 'assets/map-marker.png');
-                    icon.setAttribute('look-at', '[gps-new-camera]');
+                    icon.setAttribute('look-at', '#player');
                     icon.setAttribute('scale', '100, 100');
 
                     icon.addEventListener('loaded', () =>{
