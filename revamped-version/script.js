@@ -262,10 +262,10 @@ window.onload = () => {
                     // add place name
 
                     const icon = document.createElement('a-image');
-                    icon.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude}`);
+                    icon.setAttribute('gps-new-entity-place', `latitude: ${latitude}; longitude: ${longitude}`);
                     icon.setAttribute('name', place.name);
                     icon.setAttribute('src', 'assets/map-marker.png');
-
+                    icon.setAttribute('look-at', '[gps-new-camera]');
                     icon.setAttribute('scale', '100, 100');
 
                     icon.addEventListener('loaded', () =>{
@@ -273,7 +273,7 @@ window.onload = () => {
 
                     });
                     // const placeText = document.createElement('a-link');
-                    // placeText.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
+                    // placeText.setAttribute('gps-new-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
                     // placeText.setAttribute('title', place.name);
                     // placeText.setAttribute('scale', '15 15 15');
                     //
