@@ -247,9 +247,9 @@ function loadPlaces(position) {
 
 
 window.onload = () => {
+
     const scene = document.querySelector('a-scene');
 
-    // first get current user location
     return navigator.geolocation.getCurrentPosition(function (position) {
 
         // than use it to load from remote APIs some places nearby
@@ -264,7 +264,7 @@ window.onload = () => {
                     const icon = document.createElement('a-image');
                     icon.setAttribute('gps-new-entity-place', `latitude: ${latitude}; longitude: ${longitude}`);
                     icon.setAttribute('name', place.name);
-                    icon.setAttribute('mLocaltion', place.location.address);
+                    icon.setAttribute('mLocaltion', place.location ? place.location.address : "LuJiaZui Road, PuDong District, Shanghai City, P.R. China");
                     icon.setAttribute('mCategory', place.categories[0] ? place.categories[0].name : "Others");
                     icon.setAttribute('src', 'assets/map-marker.png');
                     icon.setAttribute('look-at', '[gps-new-camera]');
@@ -299,9 +299,9 @@ window.onload = () => {
                             const merchantName = document.createElement('strong');
                             merchantName.innerText = name;
                             const merchantLocation = document.createElement('p');
-                            merchantLocation.innerText = mLocaltion;
+                            merchantLocation.innerText = "Address: " + mLocaltion;
                             const merchantCategory = document.createElement('p');
-                            merchantCategory.innerText = mCategory;
+                            merchantCategory.innerText = "Category: " + mCategory;
                             const cardLogo = document.createElement('img');
                             cardLogo.src = './assets/Citi_Blue-RedArc_RGB.png';
                             container.appendChild(merchantName);
