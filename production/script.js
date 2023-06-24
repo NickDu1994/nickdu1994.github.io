@@ -264,7 +264,7 @@ window.onload = () => {
                     const icon = document.createElement('a-image');
                     icon.setAttribute('gps-new-entity-place', `latitude: ${latitude}; longitude: ${longitude}`);
                     icon.setAttribute('name', place.name);
-                    icon.setAttribute('mLocaltion', place.location ? place.location.address : "LuJiaZui Road, PuDong District, Shanghai City, P.R. China");
+                    icon.setAttribute('mLocaltion', (place.location && place.location.address) ? place.location.address : "LuJiaZui Road, PuDong District, Shanghai City, P.R. China");
                     icon.setAttribute('mCategory', place.categories[0] ? place.categories[0].name : "Others");
                     icon.setAttribute('src', 'assets/map-marker.png');
                     icon.setAttribute('look-at', '[gps-new-camera]');
