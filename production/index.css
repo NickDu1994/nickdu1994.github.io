@@ -116,6 +116,14 @@ div.debug {
     backdrop-filter: blur(15px);
 }
 
+.card strong{
+    font-family: sans-serif;
+}
+
+.card p{
+    font-family: sans-serif;
+}
+
 .card img {
     margin-top: 5vh;
     width: 50px;
