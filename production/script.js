@@ -268,7 +268,7 @@ window.onload = () => {
                     icon.setAttribute('mCategory', place.categories[0] ? place.categories[0].name : "Others");
                     icon.setAttribute('src', 'assets/map-marker.png');
                     icon.setAttribute('look-at', '[gps-new-camera]');
-                    icon.setAttribute('scale', '50, 50');
+                    icon.setAttribute('scale', '20, 20');
 
                     icon.addEventListener('loaded', () =>{
                         window.dispatchEvent(new CustomEvent('gps-entity-place-loaded'))
