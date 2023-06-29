@@ -427,6 +427,183 @@ function loadPlaces(position) {
             "createdAt": 1681622453,
             "referralId": "v-1687447168",
             "hasPerk": false
+        },
+
+
+
+
+
+        {
+            "id": "643b85b586963049657776b2",
+            "name": "left",
+            "location": {
+                "address": "3F, No.325, Lujiazui Ring Road, Pudong New Area, Shanghai",
+                "lat": 31.120720215775798, 
+                "lng": 121.54568509028148,
+                "labeledLatLngs": [
+                    {
+                        "label": "display",
+                        "lat": 31.23904,
+                        "lng": 121.509075
+                    }
+                ],
+                "distance": 1714,
+                "cc": "CN",
+                "city": "上海市",
+                "state": "上海市",
+                "country": "中国",
+                "formattedAddress": [
+                    "1F, Citigroup Tower, 33 Garden Shiqiao Road",
+                    "上海市",
+                    "上海市",
+                    "中国"
+                ]
+            },
+            "categories": [
+                {
+                    "id": "4bf58dd8d48988d1e0931735",
+                    "name": "Service",
+                    "pluralName": "Starbucks Coffee",
+                    "shortName": "Starbucks Coffee",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_",
+                        "suffix": ".png"
+                    },
+                    "primary": true
+                }
+            ],
+            "createdAt": 1681622453,
+            "referralId": "v-1687447168",
+            "hasPerk": false
+        },
+        {
+            "id": "643b85b586963049657776b2",
+            "name": "top",
+            "location": {
+                "address": "3F, No.325, Lujiazui Ring Road, Pudong New Area, Shanghai",
+                "lat": 31.121813367808546, 
+                "lng": 121.54721915689751,
+                "labeledLatLngs": [
+                    {
+                        "label": "display",
+                        "lat": 31.23904,
+                        "lng": 121.509075
+                    }
+                ],
+                "distance": 1714,
+                "cc": "CN",
+                "city": "上海市",
+                "state": "上海市",
+                "country": "中国",
+                "formattedAddress": [
+                    "1F, Citigroup Tower, 33 Garden Shiqiao Road",
+                    "上海市",
+                    "上海市",
+                    "中国"
+                ]
+            },
+            "categories": [
+                {
+                    "id": "4bf58dd8d48988d1e0931735",
+                    "name": "Service",
+                    "pluralName": "Starbucks Coffee",
+                    "shortName": "Starbucks Coffee",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_",
+                        "suffix": ".png"
+                    },
+                    "primary": true
+                }
+            ],
+            "createdAt": 1681622453,
+            "referralId": "v-1687447168",
+            "hasPerk": false
+        },
+        {
+            "id": "643b85b586963049657776b2",
+            "name": "right",
+            "location": {
+                "address": "3F, No.325, Lujiazui Ring Road, Pudong New Area, Shanghai",
+                "lat": 31.120656886173265, 
+                "lng": 121.5477813856093,
+                "labeledLatLngs": [
+                    {
+                        "label": "display",
+                        "lat": 31.23904,
+                        "lng": 121.509075
+                    }
+                ],
+                "distance": 1714,
+                "cc": "CN",
+                "city": "上海市",
+                "state": "上海市",
+                "country": "中国",
+                "formattedAddress": [
+                    "1F, Citigroup Tower, 33 Garden Shiqiao Road",
+                    "上海市",
+                    "上海市",
+                    "中国"
+                ]
+            },
+            "categories": [
+                {
+                    "id": "4bf58dd8d48988d1e0931735",
+                    "name": "Service",
+                    "pluralName": "Starbucks Coffee",
+                    "shortName": "Starbucks Coffee",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_",
+                        "suffix": ".png"
+                    },
+                    "primary": true
+                }
+            ],
+            "createdAt": 1681622453,
+            "referralId": "v-1687447168",
+            "hasPerk": false
+        },
+        {
+            "id": "643b85b586963049657776b2",
+            "name": "bottom",
+            "location": {
+                "address": "3F, No.325, Lujiazui Ring Road, Pudong New Area, Shanghai",
+                "lat": 31.119747734646747, 
+                "lng": 121.54726600929014,
+                "labeledLatLngs": [
+                    {
+                        "label": "display",
+                        "lat": 31.23904,
+                        "lng": 121.509075
+                    }
+                ],
+                "distance": 1714,
+                "cc": "CN",
+                "city": "上海市",
+                "state": "上海市",
+                "country": "中国",
+                "formattedAddress": [
+                    "1F, Citigroup Tower, 33 Garden Shiqiao Road",
+                    "上海市",
+                    "上海市",
+                    "中国"
+                ]
+            },
+            "categories": [
+                {
+                    "id": "4bf58dd8d48988d1e0931735",
+                    "name": "Service",
+                    "pluralName": "Starbucks Coffee",
+                    "shortName": "Starbucks Coffee",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_",
+                        "suffix": ".png"
+                    },
+                    "primary": true
+                }
+            ],
+            "createdAt": 1681622453,
+            "referralId": "v-1687447168",
+            "hasPerk": false
         }
     ];
     const params = {
