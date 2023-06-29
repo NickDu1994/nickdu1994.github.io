@@ -661,7 +661,7 @@ window.onload = () => {
                     icon.setAttribute('mCategory', place.categories[0] ? place.categories[0].name : "Others");
                     icon.setAttribute('src', 'assets/map-marker.png');
                     icon.setAttribute('look-at', '[gps-new-camera]');
-                    icon.setAttribute('scale', '100, 100');
+                    icon.setAttribute('scale', '20, 20');
 
                     icon.addEventListener('loaded', () =>{
                         window.dispatchEvent(new CustomEvent('gps-entity-place-loaded'))
@@ -679,6 +679,7 @@ window.onload = () => {
                         ev.stopPropagation();
                         ev.preventDefault();
 
+                        console.log(ev);
                         const name = ev.target.getAttribute('name');
                         const mLocaltion = ev.target.getAttribute('mLocaltion');
                         const mCategory = ev.target.getAttribute('mCategory');
@@ -696,11 +697,29 @@ window.onload = () => {
                             const merchantCategory = document.createElement('p');
                             merchantCategory.innerText = "Category: " + mCategory;
                             const cardLogo = document.createElement('img');
-                            cardLogo.src = './assets/Citi_Blue-RedArc_RGB.png';
+                            if (typeof name !== 'string') {
+                                nameInString = String(name);
+                            }
+                            if (nameInString.length > 10) {
+                                cardLogo.src = './assets/card-cashbackp-visacard.png';
+                            } else if ( 5 < nameInString <10) {
+                                cardLogo.src = './assets/card-premiermiles-visa.png';
+                            } else {
+                                cardLogo.src = './assets/card-rewards-visa-card.png';
+                            }
+                            const closeButton = document.createElement('span');
+                            closeButton.setAttribute('class', 'closeButton');
+                            closeButton.addEventListener('click', () => {
+                                container.parentElement.removeChild(container);
+                            })
+                            const panelDiv = document.createElement('div');
+                            panelDiv.setAttribute('class', 'cardPanel');
                             container.appendChild(merchantName);
                             container.appendChild(merchantLocation);
                             container.appendChild(merchantCategory);
-                            container.appendChild(cardLogo);
+                            panelDiv.appendChild(cardLogo);
+                            panelDiv.appendChild(closeButton);
+                            container.appendChild(panelDiv);
                             document.body.appendChild(container);
 
                             setTimeout(() => {
