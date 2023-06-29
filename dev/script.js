@@ -5,8 +5,8 @@ function loadPlaces(position) {
             "id": "60b6267b5e15bc2501c927a8",
             "name": "McDonald's",
             "location": {
-                "address": "Room 101, 1F, No.33 Shiqiao Road, Pudong New Area, Shanghai",
-                "crossStreet": "Hunan Hwy. | 沪南公路",
+                "address": "No. 116B, Block 1, Shanghai Pudong Software Park, 1000 Chenhui Road, Pudong New Area, Shanghai",
+                "crossStreet": "No. 116B, Block 1, Shanghai Pudong Software Park, 1000 Chenhui Road, Pudong New Area, Shanghai",
                 "lat": 31.203328694080337, 
                 "lng": 121.5976138443816,
                 "labeledLatLngs": [
@@ -22,7 +22,7 @@ function loadPlaces(position) {
                 "state": "上海市",
                 "country": "中国",
                 "formattedAddress": [
-                    "Room 101, 1F, No.33 Shiqiao Road, Pudong New Area, Shanghai",
+                    "No. 116B, Block 1, Shanghai Pudong Software Park, 1000 Chenhui Road, Pudong New Area, Shanghai",
                     "上海市",
                     "上海市",
                     "中国"
@@ -32,8 +32,8 @@ function loadPlaces(position) {
                 {
                     "id": "4bf58dd8d48988d1fd941735",
                     "name": "Restaurant",
-                    "pluralName": "Shopping Malls",
-                    "shortName": "Mall",
+                    "pluralName": "Restaurant",
+                    "shortName": "Restaurant",
                     "icon": {
                         "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/mall_",
                         "suffix": ".png"
@@ -49,9 +49,9 @@ function loadPlaces(position) {
             "id": "643b85b586963049657776b2",
             "name": "Starbucks Coffee",
             "location": {
-                "address": "1F, Citigroup Tower, 33 Garden Shiqiao Road, Pudong District, Shanghai",
-                "lat": 31.239723,
-                "lng": 121.507081,
+                "address": "Room 116-A, Building 1, No.1000 Chenhui Road, Pudong New Area, Shanghai",
+                "lat": 31.201523983872132, 
+                "lng": 121.59629005615344,
                 "labeledLatLngs": [
                     {
                         "label": "display",
@@ -65,7 +65,7 @@ function loadPlaces(position) {
                 "state": "上海市",
                 "country": "中国",
                 "formattedAddress": [
-                    "1F, Citigroup Tower, 33 Garden Shiqiao Road",
+                    "Room 116-A, Building 1, No.1000 Chenhui Road, Pudong New Area, Shanghai",
                     "上海市",
                     "上海市",
                     "中国"
@@ -90,11 +90,11 @@ function loadPlaces(position) {
         },
         {
             "id": "646066abded414161b1edac2",
-            "name": "7-ELEVEN",
+            "name": "FamilyMart",
             "location": {
-                "address": "No. 166, Lujiazui Ring Road, Pudong New Area, Shanghai",
-                "lat": 31.240819,
-                "lng": 121.506749,
+                "address": "117-B, Shanghai Pudong Software Park, No. 1000 Chen Hui Road, Pudong New Area, Shanghai",
+                "lat": 31.20294269617594, 
+                "lng": 121.59581160081306,
                 "labeledLatLngs": [
                     {
                         "label": "display",
@@ -108,7 +108,7 @@ function loadPlaces(position) {
                 "state": "上海市",
                 "country": "中国",
                 "formattedAddress": [
-                    "No. 166, Lujiazui Ring Road, Pudong New Area, Shanghai",
+                    "117-B, Shanghai Pudong Software Park, No. 1000 Chen Hui Road, Pudong New Area, Shanghai",
                     "上海市",
                     "上海市",
                     "中国"
@@ -118,8 +118,8 @@ function loadPlaces(position) {
                 {
                     "id": "52e81612bcbc57f1066b7a0c",
                     "name": "Store",
-                    "pluralName": "Bubble Tea Shops",
-                    "shortName": "Bubble Tea",
+                    "pluralName": "Store",
+                    "shortName": "Store",
                     "icon": {
                         "prefix": "https://ss3.4sqi.net/img/categories_v2/food/bubble_",
                         "suffix": ".png"
@@ -132,12 +132,55 @@ function loadPlaces(position) {
             "hasPerk": false
         },
         {
-            "id": "4f9fa912e4b01f28cba7862e",
-            "name": "Shangri-La Hotel",
+            "id": "643b85b586963049657776b2",
+            "name": "Manner Coffee",
             "location": {
-                "address": "No.33, Fucheng Road, Pudong New Area, Shanghai",
-                "lat": 31.241745,
-                "lng": 121.506803,
+                "address": "Room 105-1, Conference Hall, Ground Floor, No.22 Boxia Road, Pudong New Area, Shanghai",
+                "lat": 31.203349519160316,
+                "lng": 121.59817956238396,
+                "labeledLatLngs": [
+                    {
+                        "label": "display",
+                        "lat": 31.239723,
+                        "lng": 121.507081
+                    }
+                ],
+                "distance": 1714,
+                "cc": "CN",
+                "city": "上海市",
+                "state": "上海市",
+                "country": "中国",
+                "formattedAddress": [
+                    "Room 105-1, Conference Hall, Ground Floor, No.22 Boxia Road, Pudong New Area, Shanghai",
+                    "上海市",
+                    "上海市",
+                    "中国"
+                ]
+            },
+            "categories": [
+                {
+                    "id": "4bf58dd8d48988d1e0931735",
+                    "name": "Coffee",
+                    "pluralName": "Manner Coffee",
+                    "shortName": "Manner Coffee",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_",
+                        "suffix": ".png"
+                    },
+                    "primary": true
+                }
+            ],
+            "createdAt": 1681622453,
+            "referralId": "v-1687447168",
+            "hasPerk": false
+        },
+        {
+            "id": "4f9fa912e4b01f28cba7862e",
+            "name": "KFC",
+            "location": {
+                "address": "F1, Huizhi International Commercial Center, 3057 Jinke Road, Pudong New Area, Shanghai",
+                "lat": 31.202832572838734, 
+                "lng": 121.60157734511664,
                 "labeledLatLngs": [
                     {
                         "label": "display",
@@ -149,16 +192,16 @@ function loadPlaces(position) {
                 "cc": "CN",
                 "country": "中国",
                 "formattedAddress": [
-                    "浦东新区沪南路3219弄 (梓康路)",
+                    "F1, Huizhi International Commercial Center, 3057 Jinke Road, Pudong New Area, Shanghai",
                     "中国"
                 ]
             },
             "categories": [
                 {
                     "id": "4bf58dd8d48988d1d6941735",
-                    "name": "Hotel",
-                    "pluralName": "Strip Clubs",
-                    "shortName": "Strip Club",
+                    "name": "Restaurant",
+                    "pluralName": "Restaurant",
+                    "shortName": "Restaurant",
                     "icon": {
                         "prefix": "https://ss3.4sqi.net/img/categories_v2/nightlife/stripclub_",
                         "suffix": ".png"
@@ -174,9 +217,9 @@ function loadPlaces(position) {
             "id": "521ec0a6498e5eebf7e03182",
             "name": "Haagen-Dazs",
             "location": {
-                "address": "No.3062, Binjiang Avenue, Pudong New Area, Shangha",
-                "lat": 31.239846,
-                "lng":121.50497,
+                "address": "F1, Shanghai Legend Commercial Plaza, No.635 Bibo Road, Pudong New Area, Shanghai",
+                "lat": 31.200573105241318,
+                "lng": 121.58568140199382,
                 "labeledLatLngs": [
                     {
                         "label": "display",
@@ -190,7 +233,7 @@ function loadPlaces(position) {
                 "state": "上海市",
                 "country": "中国",
                 "formattedAddress": [
-                    "秀沿路 | Xiuyan Rd",
+                    "F1, Shanghai Legend Commercial Plaza, No.635 Bibo Road, Pudong New Area, Shanghai",
                     "浦东",
                     "上海市",
                     "中国"
@@ -200,51 +243,8 @@ function loadPlaces(position) {
                 {
                     "id": "5032891291d4c4b30a586d68",
                     "name": "Restaurant",
-                    "pluralName": "Assisted Living",
-                    "shortName": "Assisted Living",
-                    "icon": {
-                        "prefix": "https://ss3.4sqi.net/img/categories_v2/building/apartment_",
-                        "suffix": ".png"
-                    },
-                    "primary": true
-                }
-            ],
-            "createdAt": 1377747110,
-            "referralId": "v-1687447168",
-            "hasPerk": false
-        },
-        {
-            "id": "521ec0a6498e5eebf7e03182",
-            "name": "LEGO",
-            "location": {
-                "address": "F2, Zhengda Plaza, No.168 Lujiazui West Road, Pudong New Area, Shanghai",
-                "lat": 31.242104,
-                "lng":121.505015,
-                "labeledLatLngs": [
-                    {
-                        "label": "display",
-                        "lat": 31.242104,
-                        "lng": 121.505015
-                    }
-                ],
-                "distance": 906,
-                "cc": "CN",
-                "city": "浦东",
-                "state": "上海市",
-                "country": "中国",
-                "formattedAddress": [
-                    "秀沿路 | Xiuyan Rd",
-                    "浦东",
-                    "上海市",
-                    "中国"
-                ]
-            },
-            "categories": [
-                {
-                    "id": "5032891291d4c4b30a586d68",
-                    "name": "Store",
-                    "pluralName": "Assisted Living",
-                    "shortName": "Assisted Living",
+                    "pluralName": "Restaurant",
+                    "shortName": "Restaurant",
                     "icon": {
                         "prefix": "https://ss3.4sqi.net/img/categories_v2/building/apartment_",
                         "suffix": ".png"
@@ -260,9 +260,9 @@ function loadPlaces(position) {
             "id": "521ec0a6498e5eebf7e03182",
             "name": "Apple Store",
             "location": {
-                "address": "Store LG2-27, Shanghai IFC Mall, 8 Century Avenue, Lujiazui, Pudong New Area, Shanghai",
-                "lat": 31.241575,
-                "lng":121.508141,
+                "address": "F1, Huizhi International Commercial Center, 3057 Jinke Road, Pudong New Area, Shanghai",
+                "lat": 31.206255161907123,
+                "lng": 121.59528723343806,
                 "labeledLatLngs": [
                     {
                         "label": "display",
@@ -276,7 +276,7 @@ function loadPlaces(position) {
                 "state": "上海市",
                 "country": "中国",
                 "formattedAddress": [
-                    "秀沿路 | Xiuyan Rd",
+                    "F1, Huizhi International Commercial Center, 3057 Jinke Road, Pudong New Area, Shanghai",
                     "浦东",
                     "上海市",
                     "中国"
@@ -285,9 +285,9 @@ function loadPlaces(position) {
             "categories": [
                 {
                     "id": "5032891291d4c4b30a586d68",
-                    "name": "Store",
-                    "pluralName": "Assisted Living",
-                    "shortName": "Assisted Living",
+                    "name": "Electronic Products",
+                    "pluralName": "Electronic Products",
+                    "shortName": "Electronic Products",
                     "icon": {
                         "prefix": "https://ss3.4sqi.net/img/categories_v2/building/apartment_",
                         "suffix": ".png"
@@ -301,11 +301,11 @@ function loadPlaces(position) {
         },
         {
             "id": "521ec0a6498e5eebf7e03182",
-            "name": "LV Louis Vuitton",
+            "name": "Nike",
             "location": {
-                "address": "F1, Shanghai IFC Mall, No.8 Century Avenue, Lujiazui, Pudong New Area, Shanghai",
-                "lat": 31.241004,
-                "lng":121.509578,
+                "address": "F1, Huizhi International Commercial Center, 3057 Jinke Road, Pudong New Area, Shanghai",
+                "lat": 31.200095899694762,
+                "lng": 121.59764405407759,
                 "labeledLatLngs": [
                     {
                         "label": "display",
@@ -319,7 +319,7 @@ function loadPlaces(position) {
                 "state": "上海市",
                 "country": "中国",
                 "formattedAddress": [
-                    "秀沿路 | Xiuyan Rd",
+                    "F1, Huizhi International Commercial Center, 3057 Jinke Road, Pudong New Area, Shanghai",
                     "浦东",
                     "上海市",
                     "中国"
@@ -328,9 +328,9 @@ function loadPlaces(position) {
             "categories": [
                 {
                     "id": "5032891291d4c4b30a586d68",
-                    "name": "Store",
-                    "pluralName": "Assisted Living",
-                    "shortName": "Assisted Living",
+                    "name": "Clothing Store",
+                    "pluralName": "Clothing Store",
+                    "shortName": "Clothing Store",
                     "icon": {
                         "prefix": "https://ss3.4sqi.net/img/categories_v2/building/apartment_",
                         "suffix": ".png"
@@ -344,11 +344,11 @@ function loadPlaces(position) {
         },
         {
             "id": "643b85b586963049657776b2",
-            "name": "Starbucks Coffee",
+            "name": "UNIQUE",
             "location": {
-                "address": "Room 103, 1st Floor, No.488, Yincheng Middle Road, Pudong District, Shanghai",
-                "lat": 31.23973,
-                "lng": 121.508774,
+                "address": "F1 Changtai Plaza, Lane 2889 Jinke Road, Pudong New Area, Shanghai",
+                "lat": 31.20709423611006,
+                "lng": 121.59633669275264,
                 "labeledLatLngs": [
                     {
                         "label": "display",
@@ -362,7 +362,7 @@ function loadPlaces(position) {
                 "state": "上海市",
                 "country": "中国",
                 "formattedAddress": [
-                    "1F, Citigroup Tower, 33 Garden Shiqiao Road",
+                    "F1 Changtai Plaza, Lane 2889 Jinke Road, Pudong New Area, Shanghai",
                     "上海市",
                     "上海市",
                     "中国"
@@ -371,9 +371,9 @@ function loadPlaces(position) {
             "categories": [
                 {
                     "id": "4bf58dd8d48988d1e0931735",
-                    "name": "Coffee",
-                    "pluralName": "Starbucks Coffee",
-                    "shortName": "Starbucks Coffee",
+                    "name": "Clothing Store",
+                    "pluralName": "Clothing Store",
+                    "shortName": "Clothing Store",
                     "icon": {
                         "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_",
                         "suffix": ".png"
@@ -389,9 +389,9 @@ function loadPlaces(position) {
             "id": "643b85b586963049657776b2",
             "name": "China Telecom",
             "location": {
-                "address": "3F, No.325, Lujiazui Ring Road, Pudong New Area, Shanghai",
-                "lat": 31.23904,
-                "lng": 121.509075,
+                "address": "F1 Changtai Plaza, Lane 2889 Jinke Road, Pudong New Area, Shanghai",
+                "lat": 31.19822762973024,
+                "lng": 121.59736150390823,
                 "labeledLatLngs": [
                     {
                         "label": "display",
@@ -405,7 +405,7 @@ function loadPlaces(position) {
                 "state": "上海市",
                 "country": "中国",
                 "formattedAddress": [
-                    "1F, Citigroup Tower, 33 Garden Shiqiao Road",
+                    "F1 Changtai Plaza, Lane 2889 Jinke Road, Pudong New Area, Shanghai",
                     "上海市",
                     "上海市",
                     "中国"
@@ -415,8 +415,8 @@ function loadPlaces(position) {
                 {
                     "id": "4bf58dd8d48988d1e0931735",
                     "name": "Service",
-                    "pluralName": "Starbucks Coffee",
-                    "shortName": "Starbucks Coffee",
+                    "pluralName": "Service",
+                    "shortName": "Service",
                     "icon": {
                         "prefix": "https://ss3.4sqi.net/img/categories_v2/food/coffeeshop_",
                         "suffix": ".png"
@@ -478,7 +478,7 @@ function loadPlaces(position) {
         },
         {
             "id": "643b85b586963049657776b2",
-            "name": "top",
+            "name": "toptoptop",
             "location": {
                 "address": "3F, No.325, Lujiazui Ring Road, Pudong New Area, Shanghai",
                 "lat": 31.121813367808546, 
@@ -657,7 +657,7 @@ window.onload = () => {
                     const icon = document.createElement('a-image');
                     icon.setAttribute('gps-new-entity-place', `latitude: ${latitude}; longitude: ${longitude}`);
                     icon.setAttribute('name', place.name);
-                    icon.setAttribute('mLocaltion', (place.location && place.location.address) ? place.location.address : "LuJiaZui Road, PuDong District, Shanghai City, P.R. China");
+                    icon.setAttribute('mLocaltion', (place.location && place.location.address) ? place.location.address : "Huizhi International Commercial Center, 3057 Jinke Road, Pudong New Area, Shanghai, China");
                     icon.setAttribute('mCategory', place.categories[0] ? place.categories[0].name : "Others");
                     icon.setAttribute('src', 'assets/map-marker.png');
                     icon.setAttribute('look-at', '[gps-new-camera]');
@@ -703,12 +703,12 @@ window.onload = () => {
                             } else {
                                 nameInString = name;
                             }
-                            if (nameInString.length > 10) {
+                            if (nameInString.length > 12) {
                                 cardLogo.src = './assets/card-cashbackp-visacard.png';
-                            } else if ( 5 < nameInString <10) {
-                                cardLogo.src = './assets/card-premiermiles-visa.png';
-                            } else {
+                            } else if ( 6 <= nameInString <= 12) {
                                 cardLogo.src = './assets/card-rewards-visa-card.png';
+                            } else {
+                                cardLogo.src = './assets/card-premiermiles-visa.png';
                             }
                             const closeButton = document.createElement('span');
                             closeButton.setAttribute('class', 'closeButton');
@@ -726,7 +726,9 @@ window.onload = () => {
                             document.body.appendChild(container);
 
                             setTimeout(() => {
-                                container.parentElement.removeChild(container);
+                                if (container && container.parentElement) {
+                                    container.parentElement.removeChild(container);
+                                }
                             }, 5000);
                          }
                      };
