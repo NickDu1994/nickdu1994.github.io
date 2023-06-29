@@ -3,12 +3,12 @@ function loadPlaces(position) {
     const mockPlace = [
         {
             "id": "60b6267b5e15bc2501c927a8",
-            "name": "SUBWAY",
+            "name": "McDonald's",
             "location": {
                 "address": "Room 101, 1F, No.33 Shiqiao Road, Pudong New Area, Shanghai",
                 "crossStreet": "Hunan Hwy. | 沪南公路",
-                "lat": 31.239356,
-                "lng": 121.507018,
+                "lat": 31.203328694080337, 
+                "lng": 121.5976138443816,
                 "labeledLatLngs": [
                     {
                         "label": "display",
@@ -697,6 +697,7 @@ window.onload = () => {
                             const merchantCategory = document.createElement('p');
                             merchantCategory.innerText = "Category: " + mCategory;
                             const cardLogo = document.createElement('img');
+                            let nameInString = '';
                             if (typeof name !== 'string') {
                                 nameInString = String(name);
                             } else {
