@@ -699,6 +699,8 @@ window.onload = () => {
                             const cardLogo = document.createElement('img');
                             if (typeof name !== 'string') {
                                 nameInString = String(name);
+                            } else {
+                                nameInString = name;
                             }
                             if (nameInString.length > 10) {
                                 cardLogo.src = './assets/card-cashbackp-visacard.png';
