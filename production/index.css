@@ -129,3 +129,17 @@ div.debug {
     width: 50px;
 }
   
+.cardPanel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.closeButton {
+    background-image: url(./assets/close.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+}
