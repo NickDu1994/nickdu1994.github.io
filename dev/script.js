@@ -179,8 +179,8 @@ function loadPlaces(position) {
             "name": "KFC",
             "location": {
                 "address": "F1, Huizhi International Commercial Center, 3057 Jinke Road, Pudong New Area, Shanghai",
-                "lat": 31.202832572838734, 
-                "lng": 121.60157734511664,
+                "lat": 31.202511397826935,
+                "lng": 121.59915163362295,
                 "labeledLatLngs": [
                     {
                         "label": "display",
@@ -261,8 +261,8 @@ function loadPlaces(position) {
             "name": "Apple Store",
             "location": {
                 "address": "F1, Huizhi International Commercial Center, 3057 Jinke Road, Pudong New Area, Shanghai",
-                "lat": 31.206255161907123,
-                "lng": 121.59528723343806,
+                "lat": 31.20419044908241,
+                "lng": 121.59588801176497,
                 "labeledLatLngs": [
                     {
                         "label": "display",
@@ -347,8 +347,8 @@ function loadPlaces(position) {
             "name": "UNIQUE",
             "location": {
                 "address": "F1 Changtai Plaza, Lane 2889 Jinke Road, Pudong New Area, Shanghai",
-                "lat": 31.20709423611006,
-                "lng": 121.59633669275264,
+                "lat": 31.2055484568065,
+                "lng": 121.59779880308841,
                 "labeledLatLngs": [
                     {
                         "label": "display",
@@ -390,8 +390,8 @@ function loadPlaces(position) {
             "name": "China Telecom",
             "location": {
                 "address": "F1 Changtai Plaza, Lane 2889 Jinke Road, Pudong New Area, Shanghai",
-                "lat": 31.19822762973024,
-                "lng": 121.59736150390823,
+                "lat": 31.19942060725945,
+                "lng": 121.59657829192777,
                 "labeledLatLngs": [
                     {
                         "label": "display",
@@ -430,6 +430,270 @@ function loadPlaces(position) {
         },
 
 
+        {
+            "id": "60b6267b5e15bc2501c927a8",
+            "name": "Qingmei Fresh Food",
+            "location": {
+                "address": "No.798, Meihua Road, Pudong New Area, Shanghai",
+                "crossStreet": "No.798, Meihua Road, Pudong New Area, Shanghai",
+                "lat": 31.211084870451486,
+                "lng": 121.5552733641064,
+                "labeledLatLngs": [
+                    {
+                        "label": "display",
+                        "lat": 31.239356,
+                        "lng": 121.507018
+                    }
+                ],
+                "distance": 1575,
+                "cc": "CN",
+                "city": "上海市",
+                "state": "上海市",
+                "country": "中国",
+                "formattedAddress": [
+                    "No.798, Meihua Road, Pudong New Area, Shanghai",
+                    "上海市",
+                    "上海市",
+                    "中国"
+                ]
+            },
+            "categories": [
+                {
+                    "id": "4bf58dd8d48988d1fd941735",
+                    "name": "Supermarket",
+                    "pluralName": "Supermarket",
+                    "shortName": "Supermarket",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/mall_",
+                        "suffix": ".png"
+                    },
+                    "primary": true
+                }
+            ],
+            "createdAt": 1622550012,
+            "referralId": "v-1687447168",
+            "hasPerk": false
+        },
+        {
+            "id": "60b6267b5e15bc2501c927a8",
+            "name": "FamilyMart",
+            "location": {
+                "address": "1F, No.800 Hua Mu Road, Pudong New Area, Shanghai",
+                "crossStreet": "1F, No.800 Hua Mu Road, Pudong New Area, Shanghai",
+                "lat": 31.212567790266153,
+                "lng": 121.55363823051592,
+                "labeledLatLngs": [
+                    {
+                        "label": "display",
+                        "lat": 31.239356,
+                        "lng": 121.507018
+                    }
+                ],
+                "distance": 1575,
+                "cc": "CN",
+                "city": "上海市",
+                "state": "上海市",
+                "country": "中国",
+                "formattedAddress": [
+                    "1F, No.800 Hua Mu Road, Pudong New Area, Shanghai",
+                    "上海市",
+                    "上海市",
+                    "中国"
+                ]
+            },
+            "categories": [
+                {
+                    "id": "4bf58dd8d48988d1fd941735",
+                    "name": "Store",
+                    "pluralName": "Store",
+                    "shortName": "Store",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/mall_",
+                        "suffix": ".png"
+                    },
+                    "primary": true
+                }
+            ],
+            "createdAt": 1622550012,
+            "referralId": "v-1687447168",
+            "hasPerk": false
+        },
+        {
+            "id": "60b6267b5e15bc2501c927a8",
+            "name": "One Size Garden (Century Park Branch)",
+            "location": {
+                "address": "Century Park, No.809 Huamu Road, Pudong New Area, Shanghai",
+                "crossStreet": "Century Park, No.809 Huamu Road, Pudong New Area, Shanghai",
+                "lat": 31.213788679900695,
+                "lng": 121.55515293988483,
+                "labeledLatLngs": [
+                    {
+                        "label": "display",
+                        "lat": 31.239356,
+                        "lng": 121.507018
+                    }
+                ],
+                "distance": 1575,
+                "cc": "CN",
+                "city": "上海市",
+                "state": "上海市",
+                "country": "中国",
+                "formattedAddress": [
+                    "Century Park, No.809 Huamu Road, Pudong New Area, Shanghai",
+                    "上海市",
+                    "上海市",
+                    "中国"
+                ]
+            },
+            "categories": [
+                {
+                    "id": "4bf58dd8d48988d1fd941735",
+                    "name": "Restaurant",
+                    "pluralName": "Restaurant",
+                    "shortName": "Restaurant",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/mall_",
+                        "suffix": ".png"
+                    },
+                    "primary": true
+                }
+            ],
+            "createdAt": 1622550012,
+            "referralId": "v-1687447168",
+            "hasPerk": false
+        },
+        {
+            "id": "60b6267b5e15bc2501c927a8",
+            "name": "Solid Coffee",
+            "location": {
+                "address": "F1, Expo Gateway Plaza, 1099 Meihua Road, Pudong New Area, Shanghai",
+                "crossStreet": "F1, Expo Gateway Plaza, 1099 Meihua Road, Pudong New Area, Shanghai",
+                "lat": 31.212757293270887,
+                "lng": 121.55683110710412,
+                "labeledLatLngs": [
+                    {
+                        "label": "display",
+                        "lat": 31.239356,
+                        "lng": 121.507018
+                    }
+                ],
+                "distance": 1575,
+                "cc": "CN",
+                "city": "上海市",
+                "state": "上海市",
+                "country": "中国",
+                "formattedAddress": [
+                    "F1, Expo Gateway Plaza, 1099 Meihua Road, Pudong New Area, Shanghai",
+                    "上海市",
+                    "上海市",
+                    "中国"
+                ]
+            },
+            "categories": [
+                {
+                    "id": "4bf58dd8d48988d1fd941735",
+                    "name": "Coffee",
+                    "pluralName": "Coffee",
+                    "shortName": "Coffee",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/mall_",
+                        "suffix": ".png"
+                    },
+                    "primary": true
+                }
+            ],
+            "createdAt": 1622550012,
+            "referralId": "v-1687447168",
+            "hasPerk": false
+        },
+        {
+            "id": "60b6267b5e15bc2501c927a8",
+            "name": "JI Hotel",
+            "location": {
+                "address": "F1, Expo Gateway Plaza, 1099 Meihua Road, Pudong New Area, Shanghai",
+                "crossStreet": "F1, Expo Gateway Plaza, 1099 Meihua Road, Pudong New Area, Shanghai",
+                "lat": 31.211365573196407,
+                "lng": 121.55638224419876,
+                "labeledLatLngs": [
+                    {
+                        "label": "display",
+                        "lat": 31.239356,
+                        "lng": 121.507018
+                    }
+                ],
+                "distance": 1575,
+                "cc": "CN",
+                "city": "上海市",
+                "state": "上海市",
+                "country": "中国",
+                "formattedAddress": [
+                    "F1, Expo Gateway Plaza, 1099 Meihua Road, Pudong New Area, Shanghai",
+                    "上海市",
+                    "上海市",
+                    "中国"
+                ]
+            },
+            "categories": [
+                {
+                    "id": "4bf58dd8d48988d1fd941735",
+                    "name": "Hotel",
+                    "pluralName": "Hotel",
+                    "shortName": "Hotel",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/mall_",
+                        "suffix": ".png"
+                    },
+                    "primary": true
+                }
+            ],
+            "createdAt": 1622550012,
+            "referralId": "v-1687447168",
+            "hasPerk": false
+        },
+        {
+            "id": "60b6267b5e15bc2501c927a8",
+            "name": "KFC",
+            "location": {
+                "address": "1F, No.800 Hua Mu Road, Pudong New Area, Shanghai",
+                "crossStreet": "1F, No.800 Hua Mu Road, Pudong New Area, Shanghai",
+                "lat": 31.213077321264414,
+                "lng": 121.55329833947181,
+                "labeledLatLngs": [
+                    {
+                        "label": "display",
+                        "lat": 31.239356,
+                        "lng": 121.507018
+                    }
+                ],
+                "distance": 1575,
+                "cc": "CN",
+                "city": "上海市",
+                "state": "上海市",
+                "country": "中国",
+                "formattedAddress": [
+                    "1F, No.800 Hua Mu Road, Pudong New Area, Shanghai",
+                    "上海市",
+                    "上海市",
+                    "中国"
+                ]
+            },
+            "categories": [
+                {
+                    "id": "4bf58dd8d48988d1fd941735",
+                    "name": "Food",
+                    "pluralName": "Food",
+                    "shortName": "Food",
+                    "icon": {
+                        "prefix": "https://ss3.4sqi.net/img/categories_v2/shops/mall_",
+                        "suffix": ".png"
+                    },
+                    "primary": true
+                }
+            ],
+            "createdAt": 1622550012,
+            "referralId": "v-1687447168",
+            "hasPerk": false
+        },
 
 
 
@@ -625,7 +889,7 @@ function loadPlaces(position) {
         &client_secret=${params.clientSecret}
         &limit=30
         &v=${params.version}`;
-    return fetch(endpoint)
+    return fetch('data/test.json')
         .then((res) => {
             return res.json()
                 .then((resp) => {
@@ -661,7 +925,7 @@ window.onload = () => {
                     icon.setAttribute('mCategory', place.categories[0] ? place.categories[0].name : "Others");
                     icon.setAttribute('src', 'assets/map-marker.png');
                     icon.setAttribute('look-at', '[gps-new-camera]');
-                    icon.setAttribute('scale', '50, 50');
+                    icon.setAttribute('scale', '20, 20');
 
                     icon.addEventListener('loaded', () =>{
                         window.dispatchEvent(new CustomEvent('gps-entity-place-loaded'))
